@@ -1,8 +1,6 @@
-body {
-    background-color: black;
-  }
-  
-  * {
-    color: green;
-    margin-left: 20px;
-  }
+
+  * {color: green;
+    margin-left: 20px;}
+body {background-image: url("https://res.cloudinary.com/arned/image/upload/v1650622109/samples/ARned/Background_2_xkijd2.webp");
+background-repeat: no-repeat;
+background-size: cover;}
