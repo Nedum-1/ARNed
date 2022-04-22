@@ -1,6 +1,6 @@
 
-  * {color: green;
-    margin-left: 20px;}
+  * {color: rgb(202, 22, 22);}
 body {background-image: url("https://res.cloudinary.com/arned/image/upload/v1650621840/samples/ARned/Background_jawgt1.webp");
 background-repeat: no-repeat;
 background-size: cover;}
+* {font-size: large;}
