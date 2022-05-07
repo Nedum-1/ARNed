@@ -4,3 +4,9 @@ body {background-image: url("https://res.cloudinary.com/arned/image/upload/v1650
 background-repeat: no-repeat;
 background-size: cover;}
 * {font-size: large;}
+p.one {border: solid;
+border-style: ridge;
+border-top-style: dotted;
+background-color: rgb(164, 243, 164,50%);
+border-width: medium;
+border-radius: 9px;}

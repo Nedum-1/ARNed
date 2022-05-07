@@ -8,34 +8,60 @@
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     <body>
-      <b> <i>  <h1>This is a Heading</h1>
+      <b> <i>  <h1>INVITATION NOTICE</h1>
       <p1>I want to use this opportunity to invite you all to my birthday party coming up on the 10<sup>th</sup> of September 2022, You are all cordially invited</p1>
       <h2>Courtesy: Chinedum</h2>
       <p>Let's see what this is going to look like, I really hope it turns out well, I'm really anticipating, there will be lots of food and drinks.</p>
       <!--This is my first independent website used on github-->
        <p>The party is to kick off by 4.00pm on the dot... Ensure you make yourself available</p>
       <p>Damn... I love parties</p>
-    
-    <p>If you are intrested in coming for the party, kindly input your details here to make a reservation</p>
-    <p>Thanks</p>
-    <form>
+    <div>
+      <P class="one">
+       If you are intrested in coming for the party, kindly input your details here to make a reservation</p></div>
+    <p>Thanks
+        <form>
+            Choose an Image<input type="file" name="img" value="Upload your image" multiple>
+        </form>
+    <button type="button" onclick="alert('Welcome')">CLICK ME</button>
+    <form action="action.php" target="_blank" method="post">
+        <fieldset>
+            <legend>PERSONAL INFO</legend>
         First Name:<br> <input type="text" name="First Name">
         <br><br>
         Last Name:<br> <input type="text" name="Last Name">
         <br><br>
+    </fieldset>
+    <fieldset>
+        <legend>OTHERS</legend>
         Phone Number:<br> <input type="tel">
         <br><br>
-    </form>
-
-<p>Gender</p>
-
-<form>
+    <p>Gender</p>
     <input type="radio" name="gender" value="male">Male<br>
     <input type="radio" name="gender" value="female">Female<br><br>
+</fieldset>
     <input type="submit" value="Submit">
+    <form>
+        <input type="checkbox" value="good">
+        </form>
+        <input name="firstname" type="text"><br>
+        <select name="Buy Data">
+            <option value="MTN">MTN</option>
+            <option value="GLO">GLO</option>
+            <option value="ETISALAT">ETISALAT</option>
+            <option value="9 MOBILE">9 MOBILE</option>
+        </select>
 </form>
-<form action="/action_page.php"></form>    
-
+    <p>Write a short bio about yourself on the box provided below</p>
+    <textarea name="message" rows="10" cols="40"></textarea><br>
+    <input list="Countries">
+    <datalist id="Countries">
+        <option value="NIGERIA"></option>
+        <option value="CAMEROON"></option>
+    </datalist>
+        
+<form>
+    <input type="text" value="First Name" size="9" maxlength="5">
+</form>
     </i></b>
     </body>
 </html>
