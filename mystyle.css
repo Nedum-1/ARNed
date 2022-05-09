@@ -9,4 +9,19 @@ border-style: ridge;
 border-top-style: dotted;
 background-color: rgb(164, 243, 164,50%);
 border-width: medium;
-border-radius: 9px;}
+border-radius: 9px;
+padding: 20px;
+padding-right: 9px;}
+p.two {margin: 50px;}
+/*.intro {height="10px";
+width="80px";
+background-color: brown;*/
+
+.note {border: solid;
+border-top: dotted;
+border-radius: 9px;
+background-color: rgb(255, 255, 0, 50%);
+border-width: 10px;
+margin-right: 50%;
+padding: 9px;}
+.intro {background-image: url(C:/Users/CHINEDUM/Documents/good.jpg);}

@@ -8,17 +8,15 @@
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     <body>
-      <b> <i>  <h1>INVITATION NOTICE</h1>
+    <div class="intro">  <b> <i>  <h1>INVITATION NOTICE</h1>
       <p1>I want to use this opportunity to invite you all to my birthday party coming up on the 10<sup>th</sup> of September 2022, You are all cordially invited</p1>
       <h2>Courtesy: Chinedum</h2>
       <p>Let's see what this is going to look like, I really hope it turns out well, I'm really anticipating, there will be lots of food and drinks.</p>
       <!--This is my first independent website used on github-->
-       <p>The party is to kick off by 4.00pm on the dot... Ensure you make yourself available</p>
+       <p class="note"><strong style="color: red">Note:<br></strong>The party is to kick off by 4.00pm on the dot... Ensure you make yourself available</p>
       <p>Damn... I love parties</p>
-    <div>
-      <P class="one">
-       If you are intrested in coming for the party, kindly input your details here to make a reservation</p></div>
-    <p>Thanks
+       If you are intrested in coming for the party, kindly input your details here to make a reservation</p>
+    <p>Thanks</div>
         <form>
             Choose an Image<input type="file" name="img" value="Upload your image" multiple>
         </form>
@@ -52,7 +50,9 @@
         </select>
 </form>
     <p>Write a short bio about yourself on the box provided below</p>
-    <textarea name="message" rows="10" cols="40"></textarea><br>
+   <div>
+       This is a div code which shows theheight and width of the textarea in this section of the code 
+   </div>
     <input list="Countries">
     <datalist id="Countries">
         <option value="NIGERIA"></option>
@@ -64,4 +64,7 @@
 </form>
     </i></b>
     </body>
+    <footer>
+        It'll really mean a lot to me if you make out time to attend this patrty 
+    </footer>
 </html>
