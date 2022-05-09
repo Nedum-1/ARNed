@@ -1,4 +1,5 @@
 
+body {text-align: justify;}
   * {color: black;}
 body {background-image: url("https://res.cloudinary.com/arned/image/upload/v1650757989/samples/ARned/Birthday_Image_2_ltb3yo.jpg");
 background-repeat: no-repeat;
@@ -25,3 +26,7 @@ border-width: 10px;
 margin-right: 50%;
 padding: 9px;}
 .intro {background-image: url(C:/Users/CHINEDUM/Documents/good.jpg);}
+#box { width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;}
